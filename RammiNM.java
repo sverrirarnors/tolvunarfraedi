@@ -2,8 +2,8 @@ public class RammiNM{
   public static void main(String[] args) {
     int n = Integer.parseInt(args[0]);
     int m = Integer.parseInt(args[1]);
-    if (n<=2 || m<=2) {
-      System.out.println("Breidd og hæð verða að vera heiltala stærri en tveir");
+    if (n<2 || m<2) {
+      System.out.println("Breidd og hæð verða að vera heiltala stærri eða jafnt og tveir");
     }
 
     else{
