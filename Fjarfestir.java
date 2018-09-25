@@ -21,12 +21,6 @@ public class Fjarfestir{
           stada--;
         }
       }
-      /*while (stada > tap && stada < grodi) {
-        System.out.println("Einn dagur");
-          dagar++;
-          if (Math.random() < likur) stada++;     // gengi hækkar um 1
-          else                       stada--;     // gengi lækkar um 1
-      }*/
 
       if (stada == grodi){
         fjoldigroda++;
