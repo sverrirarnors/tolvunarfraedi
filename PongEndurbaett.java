@@ -1,7 +1,3 @@
-/*************************************************************************
- *  Einföld beinagrind fyrir tölvuleiknum Pong.
- *
- *************************************************************************/
 import java.awt.event.KeyEvent;
 
 public class PongEndurbaett {
@@ -55,7 +51,6 @@ public class PongEndurbaett {
 
               //d) HALDA UTAN UM STIG
               stig++;
-              StdOut.println(stig);
             }
 
             // c) BILSTÖNG BREYTIR HRAÐA OG STEFNU
