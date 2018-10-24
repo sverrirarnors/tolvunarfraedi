@@ -61,7 +61,7 @@ public class PongEndurbaett {
             // D) LEIKUR BÚINN ÞEGAR BOTNI ER NÁÐ
             if (ry + vy < -1.0 + radius){
               StdDraw.setPenColor(StdDraw.RED);
-              StdDraw.text(0,0,"Leikur búinn");
+              StdDraw.text(0,0,"Leik lokið");
               break;
             }
 
