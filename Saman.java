@@ -8,7 +8,11 @@ public class Saman{
     return false;
   }
   public static void main(String[] args) {
-    int[] rand = SlembiProfun.slembiFylki(30,0,10);
+    int N = 10;
+    int[] rand = new int[N];
+    for (int i=0; i<N; i++) {
+      rand[i] = (int)(Math.random()*10 +1);
+    }
     StdArrayIO.print(rand);
     StdOut.println(saman(rand, 3,4));
   }
